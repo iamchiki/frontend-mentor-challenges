@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Karla', sans-serif;
+  overflow: hidden;
 }
 
 .attribution {
@@ -14,4 +15,46 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+#container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #e5eff5;
+}
+
+.community {
+  background-color: #fff;
+  width: 45%;
+}
+
+.card-block {
+  display: flex;
+  /* height: 60vh; */
+  color: #e5eff5;
+  width: 45%;
+}
+
+.subscription-block {
+  flex-grow: 1;
+  background-color: #2ab2af;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:5%;
+}
+
+.info-block {
+  flex-grow: 1;
+  background-color: #5ad8d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:5%;
 }
