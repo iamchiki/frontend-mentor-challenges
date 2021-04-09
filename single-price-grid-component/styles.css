@@ -64,6 +64,15 @@ background-color: #e5eff5;
   padding: 40px;
 }
 
+.subscription-block button {
+  width: 80%;
+  color: #fff;
+  background-color: #c0df34;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
 .info-block {
   /* flex-grow: 1; */
   background-color: #5ad8d6;
