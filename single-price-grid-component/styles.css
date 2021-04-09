@@ -30,6 +30,23 @@ background-color: #e5eff5;
 .community {
   background-color: #fff;
   width: 45%;
+  border-radius: 8px 8px 0 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.community > h1 {
+  color: #2ab2af;
+}
+
+.community > h3 {
+  color: #c0df34;
+}
+
+.community > p {
+  color: #98a6bd;
 }
 
 .card-block {
@@ -37,24 +54,25 @@ background-color: #e5eff5;
   /* height: 60vh; */
   color: #e5eff5;
   width: 45%;
+  border-radius: 0 0 8px 8px;
 }
 
 .subscription-block {
   flex-grow: 1;
   background-color: #2ab2af;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:5%;
+  gap:5%; */
 }
 
 .info-block {
   flex-grow: 1;
   background-color: #5ad8d6;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:5%;
+  gap:5%; */
 }
