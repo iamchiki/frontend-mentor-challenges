@@ -58,21 +58,15 @@ background-color: #e5eff5;
 }
 
 .subscription-block {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   background-color: #2ab2af;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:5%; */
+  width:50%;
+  padding: 40px;
 }
 
 .info-block {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   background-color: #5ad8d6;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:5%; */
+  width: 50%;
+  padding: 40px;
 }
