@@ -92,6 +92,11 @@
 
 @media (max-width: 768px) {
 
+  #container {
+    height: auto;
+    padding: 35px 0;
+  }
+
   .community {
     width: 85%;
   }
@@ -107,5 +112,10 @@
 
   .info-block {
     width: 100%;
+  }
+
+  .subscription-block button {
+    width: 100%;
+    padding: 15px 0;
   }
 }
