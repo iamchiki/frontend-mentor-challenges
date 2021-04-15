@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://iamchiki.github.io/frontend-mentor-challenges/single-price-grid-component/)
 
 ## My process
 
