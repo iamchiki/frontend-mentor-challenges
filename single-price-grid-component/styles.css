@@ -16,14 +16,13 @@
   color: hsl(228, 45%, 44%);
 }
 
-
 #container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background-color: #e5eff5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e5eff5;
 }
 
 .community {
@@ -87,4 +86,26 @@ background-color: #e5eff5;
 
 .info-block > h4 {
   margin-bottom: 20px;
+}
+
+/* Mobile layout */
+
+@media (max-width: 768px) {
+
+  .community {
+    width: 85%;
+  }
+
+  .card-block {
+    width: 85%;
+    flex-direction: column;
+  }
+
+  .subscription-block {
+    width: 100%;
+  }
+
+  .info-block {
+    width: 100%;
+  }
 }
