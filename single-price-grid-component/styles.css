@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Karla', sans-serif;
-  overflow: hidden;
 }
 
 .attribution {
@@ -51,21 +50,19 @@ background-color: #e5eff5;
 
 .card-block {
   display: flex;
-  /* height: 60vh; */
   color: #e5eff5;
   width: 45%;
   border-radius: 0 0 8px 8px;
 }
 
 .subscription-block {
-  /* flex-grow: 1; */
   background-color: #2ab2af;
   width:50%;
   padding: 40px;
 }
 
 .subscription-block button {
-  width: 80%;
+  width: 90%;
   color: #fff;
   background-color: #c0df34;
   border: 0;
@@ -73,9 +70,21 @@ background-color: #e5eff5;
   padding: 10px 0;
 }
 
+.subscription-block span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subscription-block > * {
+  margin-bottom: 20px;
+}
+
 .info-block {
-  /* flex-grow: 1; */
-  background-color: #5ad8d6;
+  background-color: #55b9b8;
   width: 50%;
   padding: 40px;
+}
+
+.info-block > h4 {
+  margin-bottom: 20px;
 }
