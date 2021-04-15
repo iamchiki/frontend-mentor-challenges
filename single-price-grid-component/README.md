@@ -48,4 +48,4 @@ Mainly I learnt CSS Flexbox and responsive design with media queries.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/iamchiki)
+- Frontend Mentor - [@iamchiki](https://www.frontendmentor.io/profile/iamchiki)
