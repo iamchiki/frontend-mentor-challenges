@@ -2,6 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  background-color: #19a2ae;
 }
 
 .attribution {
@@ -11,4 +21,17 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+#container {
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile-card {
+  height: 375px;
+  background-color: #fff;
+  width: 25%;
 }
