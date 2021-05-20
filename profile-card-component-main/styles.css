@@ -6,6 +6,8 @@
   box-sizing: border-box;
   overflow: hidden;
   font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 html, body {
@@ -69,5 +71,16 @@ body {
 
 .light-font {
   color: #969696;
+  font-weight: 400;
+}
+
+.social-media-font {
   margin-top: 0.25rem;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+}
+
+.venue {
+  font-size: 0.8em;
+  margin: 0.5rem 0 0 0;
 }
