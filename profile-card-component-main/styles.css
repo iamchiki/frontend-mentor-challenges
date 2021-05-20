@@ -64,6 +64,10 @@ body {
   color: #2d3248;
 }
 
+.profile-info > hr {
+  border-width: 0 0 2px 0;
+}
+
 .social-media-info {
   display: flex;
   justify-content: space-around;
