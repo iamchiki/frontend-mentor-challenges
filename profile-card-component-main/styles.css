@@ -5,9 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
-  font-family: 'Kumbh Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
 }
 
 html, body {
@@ -17,6 +14,10 @@ html, body {
 
 body {
   background-color: #19a2ae;
+  background-image: url('images/bg-pattern-bottom.svg');
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .attribution {
@@ -49,10 +50,12 @@ body {
 
 .profile-img {
   text-align: center;
+  transform: translateY(-55px);
 }
 
 .profile-img > img {
   border-radius: 50%;
+  border: 5px solid #fff;
 }
 
 .profile-info {
